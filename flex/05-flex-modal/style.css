@@ -15,7 +15,35 @@ body {
   justify-content: center;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.buttons {
+  display: flex;
+  margin: 12px 0px;
+  gap:5px;
+}
+
+.left-container {
+  display: flex;
+  margin: 12px 0px 12px 12px;
+}
+
+.right-container {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.x-and-text {
+  display:flex;
+  justify-content: space-between;
+}
+
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
